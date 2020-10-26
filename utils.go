@@ -65,7 +65,6 @@ const (
 	ASSIGN = iota // =
 	NOT    = iota // !
 
-	ELLIPSIS    = iota // ...
 	LEFT_PAREN  = iota // (
 	VETOR       = iota // [
 	ARRAY       = iota // [
@@ -157,7 +156,6 @@ var tokens = []string{
 	SELECT:               "SELECT",
 	IMAG:                 "IMAG",
 	INT:                  "INT",
-	ELLIPSIS:             "ELLIPSIS",
 	PACKAGE:              "PACKAGE",
 	SWITCH:               "SWITCH",
 	DOUBLE_INTERROGATION: "DOUBLE_INTERROGATION",
