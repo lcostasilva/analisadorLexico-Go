@@ -33,6 +33,6 @@ func main() {
 
 		fmt.Println("-----------------------------------------------------------------------------------")
 	}
-	fmt.Println("Precione qualquer tecla para finalizar!")
+	fmt.Println("Pressione qualquer tecla para finalizar!")
 	fmt.Scanln()
 }
